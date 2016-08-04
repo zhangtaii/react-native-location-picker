@@ -1,0 +1,28 @@
+{
+  "name": "react-native-location-picker",
+  "version": "1.0.0",
+  "description": "React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q6112345/react-native-location-picker.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "location-picker",
+  ],
+  "author": "q6112345",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/q6112345/react-native-location-picker/issues"
+  },
+  "homepage": "https://github.com/q6112345/react-native-location-picker#readme"
+}
