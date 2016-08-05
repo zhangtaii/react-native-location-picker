@@ -1,5 +1,5 @@
 {
-  "name": "react-native-location-picker",
+  "name": "react-native-location-picker-controller",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -21,6 +21,9 @@
     "react",
     "mobile",
     "ios",
+    "react-native-navigation",
+    "react-native-controllers",
+    "controller",
     "input",
     "map",
     "location",
