@@ -2,8 +2,8 @@
 //  RNLocationPickerManager.m
 //  tacitus
 //
-//  Created by Jack Chang on 3/8/2016.
-//  Copyright © 2016 Jack Chang. All rights reserved.
+//  Created by q6112345 on 3/8/2016.
+//  Copyright © 2016 https://github.com/q6112345 All rights reserved.
 //
 
 #import "RNLocationPickerManager.h"

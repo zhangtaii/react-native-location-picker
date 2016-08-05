@@ -1,7 +1,11 @@
 {
   "name": "react-native-location-picker",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "version": "1.0.0",
   "description": "React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.",
+  "nativePackage": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +21,11 @@
     "react",
     "mobile",
     "ios",
-    "location-picker",
+    "input",
+    "map",
+    "location",
+    "picker",
+    "location-picker"
   ],
   "author": "q6112345",
   "license": "MIT",
