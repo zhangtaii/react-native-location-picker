@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.",
   "nativePackage": true,
   "main": "index.js",
