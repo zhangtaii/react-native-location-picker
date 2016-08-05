@@ -2,6 +2,10 @@
 
 React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.
 
+<p align="left">
+  <img src="https://i.imgur.com/4FyRNde.png" width="350"/>
+</p>
+
 ### Dependencies
 
 * [LocationPicker](https://github.com/JeromeTan1997/LocationPicker) - original  library
