@@ -40,7 +40,7 @@ React Native Wrapper for LocationPicker, a ready for use and fully customizable 
 
 First, create a placeholder screen for the location picker. The main purpose of this screen is to handle navigation events. See an example [here](https://github.com/q6112345/react-native-location-picker/blob/master/example/LocationPickerScreen.js).
 
-> Note: Make sure your screen component has been registered with `Navigation.registerComponent` like all react-native-navigation screens need to be, [example](https://github.com/q6112345/blob/master/example/index.ios.js).
+> Note: Make sure your screen component has been registered with `Navigation.registerComponent` like all react-native-navigation screens need to be, [example](https://github.com/q6112345/react-native-location-picker/blob/master/example/index.ios.js).
 
 Now, to display your screen, from within one of your other app screens, push the location picker:
 
