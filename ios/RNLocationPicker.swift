@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import LocationPickerViewController
+import LocationPicker
 
 // var gActiveLocationPicker: RNLocationPicker!  = nil;
 var LocationDidSelectNotification: String = "LocationDidSelect";
