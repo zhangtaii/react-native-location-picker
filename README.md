@@ -2,9 +2,6 @@
 
 React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.
 
-> [LocationPicker](https://github.com/JeromeTan1997/LocationPicker) - original  library
-
-
 <p align="left">
   <img src="https://i.imgur.com/4FyRNde.png" width="350"/>
 </p>
@@ -12,7 +9,7 @@ React Native Wrapper for LocationPicker, a ready for use and fully customizable 
 
 ### Dependencies
 
-* [react-native-navigation](https://github.com/wix/react-native-navigation) - native navigation library for React Native (required to natively display the editor within RN)
+* [react-native-navigation](https://github.com/wix/react-native-navigation) - native navigation library for React Native (required to natively display the location picker within RN)
 
 ### Installation
 
@@ -39,7 +36,13 @@ React Native Wrapper for LocationPicker, a ready for use and fully customizable 
 
 ### Usage
 
-To display your screen, from within one of your other app screens, push the editor:
+#### For a fully working example look [here](https://github.com/wix/react-native-wordpress-editor/tree/master/example)
+
+First, create a placeholder screen for the location picker. The main purpose of this screen is to handle navigation events. See an example [here](https://github.com/q6112345/react-native-location-picker/blob/master/example/LocationPickerScreen.js).
+
+> Note: Make sure your screen component has been registered with `Navigation.registerComponent` like all react-native-navigation screens need to be, [example](https://github.com/q6112345/blob/master/example/index.ios.js).
+
+Now, to display your screen, from within one of your other app screens, push the location picker:
 
 ```js
 this.props.navigator.push({
@@ -50,6 +53,13 @@ this.props.navigator.push({
   }
 });
 ```
+
+### Credits
+
+* This work is inspired from [react-native-wordpress-editor](https://github.com/wix/react-native-wordpress-editor), using it as a template.
+
+* [LocationPicker](https://github.com/JeromeTan1997/LocationPicker) is the original library.
+
 
 ### License
 
