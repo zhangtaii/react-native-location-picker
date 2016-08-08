@@ -36,7 +36,7 @@ React Native Wrapper for LocationPicker, a ready for use and fully customizable 
 
 ### Usage
 
-#### For a fully working example look [here](https://github.com/wix/react-native-wordpress-editor/tree/master/example)
+#### For a fully working example look [here](https://github.com/q6112345/react-native-location-picker/tree/master/example)
 
 First, create a placeholder screen for the location picker. The main purpose of this screen is to handle navigation events. See an example [here](https://github.com/q6112345/react-native-location-picker/blob/master/example/LocationPickerScreen.js).
 
