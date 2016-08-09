@@ -38,7 +38,7 @@ export default class WelcomeScreen extends Component {
           currentLocationText: '当前位置',
           currentLocationIconColor: processColor('#72c02c'),
           allowArbitraryLocation: true,
-          defaultLongitudinalDistance: 100,
+          defaultLongitudinalDistance: 1500,
         }
       }
     });
