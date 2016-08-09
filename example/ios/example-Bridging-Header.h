@@ -4,3 +4,4 @@
 
 #import "RCCExternalViewControllerProtocol.h"
 #import "RCCViewController.h"
+#import "RCTConvert.h"

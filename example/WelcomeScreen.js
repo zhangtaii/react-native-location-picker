@@ -33,6 +33,12 @@ export default class WelcomeScreen extends Component {
       backButtonTitle: "",
       passProps: {
         externalNativeScreenClass: 'RNLocationPicker',
+        externalNativeScreenProps: {
+          currentLocationText: '当前位置',
+          currentLocationIconColor: processColor('#72c02c'),
+          allowArbitraryLocation: true,
+          defaultLongitudinalDistance: 100,
+        }
       }
     });
   }

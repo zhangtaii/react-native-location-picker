@@ -1,5 +1,5 @@
 //
-//  CustomLocationPicker.swift
+//  RNLocationPicker.swift
 //  LocationPickerExample
 //
 //  Created by q6112345 on 3/8/2016.
@@ -9,7 +9,6 @@
 import UIKit
 import LocationPicker
 
-// var gActiveLocationPicker: RNLocationPicker!  = nil;
 var LocationDidSelectNotification: String = "LocationDidSelect";
 
 
@@ -17,26 +16,37 @@ var LocationDidSelectNotification: String = "LocationDidSelect";
 class RNLocationPicker: LocationPicker, RCCExternalViewControllerProtocol {
 
 
+  var colorPropNames: [String] = ["tableViewBackgroundColor",
+                                  "currentLocationIconColor",
+                                  "searchResultLocationIconColor",
+                                  "alternativeLocationIconColor",
+                                  "pinColor",
+                                  "primaryTextColor",
+                                  "secondaryTextColor"]
+
   weak var controllerDelegate: RCCViewControllerDelegate?
-  func setProps(props: [NSObject: AnyObject]?) -> Void {
+  func setProps(props: Dictionary<NSObject, AnyObject>?) -> Void {
+    for (key, value) in props! {
+      if (self.colorPropNames.contains(key as! String)) {
+        let colorValue = RCTConvert.UIColor(value)
+        self.setValue(colorValue, forKey: key as! String)
+      } else {
+        self.setValue(value, forKey: key as! String)
+      }
+    }
+
   }
 
-//  class func getActiveInstance() -> RNLocationPicker {
-//    return gActiveLocationPicker
-//  }
 
   override func viewDidLoad() {
-//    gActiveLocationPicker = self
     super.addBarButtons()
     super.viewDidLoad()
   }
 
   override func locationDidSelect(locationItem: LocationItem) {
-    let locationObject: NSDictionary = [
-      "name": locationItem.mapItem.placemark.title!,
-      "latitude": locationItem.mapItem.placemark.coordinate.latitude,
-      "longitude": locationItem.mapItem.placemark.coordinate.longitude
-    ]
+    let locationObject: [String:AnyObject] = ["name": locationItem.mapItem.placemark.title!,
+                                              "latitude": locationItem.mapItem.placemark.coordinate.latitude,
+                                              "longitude": locationItem.mapItem.placemark.coordinate.longitude]
     let nc = NSNotificationCenter.defaultCenter()
     nc.postNotificationName(LocationDidSelectNotification, object: locationObject)
   }
