@@ -33,7 +33,7 @@ React Native Wrapper for LocationPicker, a ready for use and fully customizable 
     #import "RCTConvert.h"
     ```
 
-6. In `RNLocationPickerManager.m`, replace `#import "tacitus-Swift.h"` to `#import "<your project name>-Swift.h"`
+6. In `RNLocationPickerManager.m`, replace `#import "example-Swift.h"` to `#import "<your project name>-Swift.h"`
 
 ### Support Props(Subset of [LocationPicker](https://github.com/JeromeTan1997/LocationPicker#boolean))
 

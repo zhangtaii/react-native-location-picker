@@ -6,6 +6,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 import reactNativeEmitter from './reactNativeEmitter';
+import processColor from 'processColor';
 
 
 export default class WelcomeScreen extends Component {

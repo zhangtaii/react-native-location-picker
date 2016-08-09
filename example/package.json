@@ -8,7 +8,7 @@
   "dependencies": {
     "react": "^15.1.0",
     "react-native": "^0.27.2",
-    "react-native-navigation": "^1.0.0",
-    "react-native-location-picker-controller": "^1.0.4"
+    "react-native-location-picker-controller": "^1.1.1",
+    "react-native-navigation": "^1.0.0"
   }
 }

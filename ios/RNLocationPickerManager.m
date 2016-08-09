@@ -9,7 +9,7 @@
 #import "RNLocationPickerManager.h"
 #import "RCTLog.h"
 #import "RCTEventDispatcher.h"
-#import "tacitus-Swift.h"
+#import "example-Swift.h"
 
 NSString *LocationDidSelectNotification = @"LocationDidSelect";
 
