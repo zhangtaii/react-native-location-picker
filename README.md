@@ -1,3 +1,5 @@
+#### WARNING: This library is for `iOS` only, and must be used with `react-native-navigation`, I highly recommend using [react-native-google-place-picker](https://github.com/q6112345/react-native-google-place-picker) instead as its more featured(using Google's SDK), easy to setup(not dependent on `react-native-navigation`), with support for both `iOS` and `Android`.
+
 # react-native-location-picker
 
 React Native Wrapper for LocationPicker, a ready for use and fully customizable location picker.
